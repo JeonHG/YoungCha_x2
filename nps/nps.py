@@ -36,7 +36,7 @@ def get_code():
 
     return data_dict
 
-
+'''
 def get_real_time(code):
     response = requests.get('https://finance.naver.com/item/main.nhn?code=%s' % code)
     html = response.text
@@ -77,3 +77,4 @@ def get_past_time(code):
 
 
 get_past_time('215600')
+'''
