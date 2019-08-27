@@ -1,7 +1,7 @@
 import pandas
 import requests
 from bs4 import BeautifulSoup as BS
-
+'''
 def get_nps_data():
     x = pandas.read_excel('excel_files/nps_2018.xlsx', sheet_name='국내주식 종목별 투자 현황(2018년 말)')
     data = {}
@@ -13,13 +13,13 @@ def get_nps_data():
 
     return data
 
-'''
+
 for i in data:
     vars()["data%d" % i] = []
     print(data[i])
     for j in i:
         vars()["data%d" % i].append
-'''
+
 
 
 def get_code():
@@ -36,7 +36,7 @@ def get_code():
 
     return data_dict
 
-'''
+
 def get_real_time(code):
     response = requests.get('https://finance.naver.com/item/main.nhn?code=%s' % code)
     html = response.text
