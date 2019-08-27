@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-
+'''
 from django.shortcuts import render
 
 from nps.models import Stock
@@ -89,3 +89,4 @@ def home2(request):
 
     sum_rate = round(((sum_now/sum_past)-1)*100, 4)
     return render(request, 'nps/nps_index.html', {'data2': data, "sum": sum, 'sum_rate': sum_rate})
+'''
