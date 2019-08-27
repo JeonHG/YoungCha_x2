@@ -86,6 +86,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'http://127.0.0.1:8000/admin',
     'kiljaeeun.pythonanywhere.com',
+    'HGJeon.pythonanywhere.com'
     '*',
     '52.79.206.182',
 
